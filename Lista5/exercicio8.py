@@ -6,10 +6,10 @@ somaIdade = 0
 contIdade = 0
 while idade>0:
     serie = int(input('Informe sua série 1-4: '))
-    while(serie<1 or serie>4):
+    while serie<1 or serie>4:
         serie = int(input('Informe sua série 1-4: '))
     qtdLivros = int(input('Informe a quantidade de livros/mes: '))
-    while(qtdLivros<0):
+    while qtdLivros<0:
         qtdLivros = int(input('Informe a quantidade de livros/mes: '))
     redacao = input('Gosta de fazer redação S-Sim N-Não: ')
     # while(redacao.upper!='S' and redacao.upper!='N'):
